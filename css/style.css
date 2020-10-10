@@ -1,0 +1,759 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+/* Start section Header */
+.header{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(111, 66, 193, 0.1);
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+}
+/* Start section navbar */
+
+.header .navbar-brand{
+    margin-top: 10px;
+    color: #000; 
+    font-weight: 700;  
+}
+.header .navbar-brand span{
+    color: #6f42c1;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: none;
+}
+.header .navbar-nav>li>a{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+.header .navbar-nav>li>a:hover{
+    color: #6f42c1;
+    transition: 0.5s;
+}
+.header .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 767px){
+    .header .navbar-brand{
+        margin-top: 5px !important; 
+    }
+    .header .nav{
+        margin-left: 0%;
+    }
+}
+@media (min-width: 768px){
+    .header .nav{
+        margin-top: 8px;
+        margin-left: 18%;
+    }
+}
+@media (min-width: 992px){
+    .header .nav{
+        margin-top: 8px;
+        margin-left: 35%;
+    }
+}
+@media (min-width: 1200px){
+    .header .nav{
+        margin-top: 7px;
+        margin-left: 40%;
+    }
+}
+
+
+/* End section navbar */
+.header .header-background .text-header{
+    padding: 8rem 0;
+}
+.header .header-background .text-header h5{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(111, 66, 193, 0.5);
+    letter-spacing: .1rem;
+    font-weight: 900;
+}
+.header .header-background .text-header h1{
+    font-weight: 900;
+    color: #6f42c1;
+    font-size: 40px;
+}
+.header .header-background .text-header p{
+    margin-bottom: 15px !important;
+    font-size: 16px;
+
+}
+.header .header-background .text-header button{
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 50px;
+    color: #FFF;
+    background-color: #6f42c1;
+    border-radius: 50px;
+    outline: none;
+}
+.header .header-background .header-image{
+    max-width: 555px;
+    height: 535px;
+    padding-top: 95px;
+}
+.header .header-background .header-image img{
+    max-width: 100%;
+    
+}
+@media (max-width: 767px){
+    .header{
+        height: 400px !important;
+    }
+    .header .header-background{
+        text-align: center;
+        overflow: visible;
+    }
+    .header .header-background .text-header{
+        padding-top: 2rem;
+    }
+    .header .navbar-fixed-top{
+        position: relative;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .header .header-background .text-header p{
+        margin-bottom: 10px !important;
+        font-size: 16px;
+    }
+    .header .header-background .header-image{
+        max-width: 500px !important;
+        height: 400px;
+        padding-top: 95px;
+    }
+}
+@media (min-width:768px){
+    .header .header-background .text-header {
+        padding: 16rem 0;
+    }
+    .header .header-background .header-image img {
+        max-width: 100%;
+        margin-top: 73px;
+    }
+}
+
+/* End section Header */
+
+/* Start Section Statisitcs */
+.Statistics{
+    padding: 90px 0;
+}
+.Statistics h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #6f42c1;
+}
+.Statistics p{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.Statistics .state i{
+    margin-top: 20px;
+    color: #6f42c1;
+}
+.Statistics .state h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 900;
+}
+.Statistics .state p{
+    color: #aaa;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+/* End Section Statisitcs */
+
+/* Start section what */
+.what .cover{
+    width: 540px;
+    height: 360px;
+    overflow: hidden;
+}
+.what .cover img{
+ 
+    width: 100%;
+    height: auto;
+}
+.what .cover p{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    color: white;
+    font-size: 18px;
+
+}
+.what .cover button{
+    background-color: #6f42c1;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    outline: none;
+    border: none;
+}
+.what .cover button > i{
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+.what .text h2{
+    color: #6f42c1;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+.what .text p{
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.what .text ul{
+    text-align: left;
+}
+.what .text li > i{
+    color: #6f42c1;
+    margin-right: 15px;
+}
+.what .text ul > li{
+    font-size: 14px;
+}
+.what .text button{
+    margin-top: 15px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    color: #FFF;
+    background-color: #6f42c1;
+    border-radius: 50px;
+    outline: none;
+}
+.what .sm-button button{
+    margin-top: 15px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    color: #FFF;
+    background-color: #6f42c1;
+    border-radius: 50px;
+    outline: none;
+}
+@media (max-width: 767px){
+    .what .cover{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    .what .cover button{
+        right: 16px !important;
+        bottom: 0px;
+    }
+    .what .text h2{
+        margin-top: 20px;
+    }
+    .what .text li{
+        display: inline;  
+        padding: 0 10px;  
+    }
+    .what .text p{
+        text-align: center;
+    }
+    .what .text ul{
+        text-align: center;
+    }
+}
+.what .last-what{
+    margin-top: 120px;
+}
+.what .last-what .element .icon{
+    float: left;
+    color: #6f42c1;
+}
+.what .last-what .element .text{
+    margin-left: 70px;
+}
+.what .last-what .element .text h4{
+    color: #6f42c1;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.what .last-what .element .text p{
+    font-size: 14px;
+}
+@media (max-width: 767px){
+    .what .last-what{
+        text-align: center;
+        margin-top: 40px !important;
+    }
+    .what .last-what .element .icon{
+        float: none;
+    }
+    .what .last-what .element .text{
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .what .cover{
+        width: 350px;
+        height: 220px;
+        overflow: hidden;
+    }
+    .what .cover button{
+        background-color: #6f42c1;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        right: 10px !important;
+        outline: none;
+        border: none;
+    }
+    .what .cover p{
+        right: 80px !important;
+    }
+    .what .text li{
+        display: inline;  
+        padding: 0 10px;  
+    }
+    .what .last-what{
+        margin-top: 60px !important;
+    }
+    
+    
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .what .cover{
+        width: 450px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .what .cover button{
+        right: 20px !important;
+    }
+    .what .text p{
+        padding-bottom: 0 !important;
+    }
+    .what .text button{
+        margin-top: 13px;
+    }
+    
+    
+}
+@media (min-width: 1200px){
+    .what .cover{
+        width: 540px;
+        height: 360px;
+        overflow: hidden;
+    }
+    .what .cover button{
+        right: 30px !important;
+    }
+    
+}
+/* End section what*/
+
+/* Start secion how */
+.how{
+    margin-top: 25px;
+    width: 100%;
+    min-height: 890px;
+    background-color: rgba(111, 66, 193, 0.05);
+    overflow: hidden;
+}
+.how .Content{
+    padding: 90px 0;
+}
+.how .Content1{
+    margin: 45px 0;
+}
+.how .Content .cont{
+    width: 255px;
+    height: 300px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.how .Content .cont .icon{
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 255px;
+    height: 140px;
+    background-color: rgba(111, 66, 193, 0.15);
+    text-align: center;
+
+}
+.how .Content .cont .icon i{
+    padding-top: 40px;
+    color: #6f42c1;
+}
+.how .Content .cont .text{
+    border-radius: 5px;
+    width: 255px;
+    height: 160px;
+    background-color: #FFF;
+}
+.how .Content .cont .text h5{
+    margin-top: 0;
+    padding-top: 20px;
+    color: #6f42c1;
+    font-size: large;
+}
+.how .Content .cont .text p{
+    font-size: small;
+}
+.how .info{
+    margin-top: 210px;
+}
+.how .info h2{
+    color: #6f42c1;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.how .info p{
+    font-size: 18px;
+
+}
+.how .info p > span{
+    color: #6f42c1;
+    font-weight: 600;
+
+}
+.how .info li{
+    font-size: 13px;
+}
+.how .info li > i{
+    color: #6f42c1;
+    padding-right: 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.how .info button{
+    margin-top: 15px;
+    background: none;
+    border: none;
+    background-color: #6f42c1;
+    width: 250px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    font-size: 13px;
+    outline: none;
+}
+@media (max-width: 767px){
+    .how .Content .cont{
+        width: 200px !important;
+    }
+    .how .Content .cont .icon{
+        width: 200px !important;
+    }
+    .how .Content .cont .text{
+        width: 200px !important;
+    }
+    .how .Content1 {
+        margin: 0 0;
+       padding-left: 41px;
+       width: 55% !important;
+       padding-bottom: 20px;
+    }
+    .how .content2{
+        width: 45% !important;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .how .info{
+        margin-top: 0;
+    }
+    .how .info h2{
+        text-align: center;
+    }
+    .how .info p{
+        text-align: center;
+    }
+    .how .info ul{
+        text-align: center;
+    }
+    .how .info .butt{
+        text-align: center;
+    }
+    .how .info button{
+       
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .how .Content{
+        padding-left: 85px;
+        padding-bottom: 50px;
+    }
+    .how .Content1 {
+        margin: 0 0;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+    .how .info {
+        margin-top: 0;
+    }
+    .how .info h2{
+        text-align: center;
+    }
+    .how .info p{
+        text-align: center;
+    }
+    .how .info ul{
+        text-align: center;
+    }
+    .how .info button{
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .how .info{
+        margin-top: 170px;
+        width: 40%;
+        float: right;
+    }
+    .how .Content1{
+        padding-right: 30%;
+    }
+}
+/* End section how */
+
+/* Start section news */
+.news h2{
+    margin-top: 100px;
+    font-size: 30px;
+    color: #6f42c1;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.news .box {
+    height: 235px;
+
+}
+.news .box img{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.news .box span{
+    position: absolute;
+    left: 35%;
+    bottom: 30px;
+    padding-bottom: -5px;
+    color: #FFF;
+    background-color: #6f42c1;
+    font-size: 16px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.news .box .link{
+    margin-top: 15px;
+    
+    font-size: 13px;
+    color: #aaa;
+}
+.news .box .link a{
+    text-decoration: none;
+    color: #aaa;
+    padding: 0 8px
+}
+.news .box .link a:hover{
+    color: #6f42c1;
+    transition: 0.5s;
+}
+.news .box .link a > p{
+    display: inline;
+    padding: 20px 3px;
+}
+.news .box .link h4 > a{
+    color: #6f42c1;
+}
+.news .box .link h4 > a:hover{
+    transition: 0.5s;
+    color: #aaa;
+}
+@media (max-width: 767px){
+    .news h2{
+        margin-top: 50px;
+    }
+    .news .box {
+        height: auto ;
+        margin-bottom: 30px;
+    }
+    .news .box span{
+        bottom: 65px;
+        left: 15px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .news .box span{
+        font-size: 12px;
+        left: 30%;
+        bottom: 80px;
+    }
+}
+@media (min-width: 1200px){
+    .news .box span{
+        left: 37%;
+        bottom: -15px;
+    }
+} 
+/* End section news */
+
+/* Start secion Experience */
+.experience{
+    margin-top: 200px;
+}
+.experience .text h1{
+    margin: 0;
+    padding-bottom: 15px;
+    color: #6f42c1;
+}
+.experience .text p{
+    font-size: 17px;
+}
+.experience .text button{
+    background: none;
+    border: none;
+    background-color: #6f42c1;
+    width: 250px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    font-size: 13px;
+    outline: none;
+    
+}
+.experience .input input[type="text"]{
+    margin-top: 5px;
+    width: 60%;
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 25px;
+}
+.experience .input input[type="text"]:hover,
+.experience .input input[type="text"]:active,
+.experience .input input[type="text"]:focus{
+    border-color: #6f42c1;
+    transition: 0.7s;
+}
+.experience .input textarea{
+    width: 60%;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 25px;
+}
+.experience .input textarea:hover,
+.experience .input textarea:active,
+.experience .input textarea:focus{
+    border-color: #6f42c1;
+    transition: 0.7s;
+}
+@media (max-width: 767px){
+    .experience{
+        margin-top: 20px;
+    }
+    .experience .text{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .experience{
+        margin-top: 100px;
+    }
+}
+/* End secion Experience */
+
+/* Start section about */
+.about{
+    margin-top: 30px;
+    background-color: rgba(111, 66, 193, 0.05);
+
+}
+.about .info h5{
+    color: #6f42c1;
+    padding: 20px 0 10px;
+    font-size: 17px;
+}
+.about .info p{
+    font-size: 15px;
+}
+.about .info ul{
+    padding-top: 3px;
+}
+.about .info li{
+    display: inline;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.about .info li > a{
+    text-decoration: none;
+    color: #aaa;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+.about .info li > a:hover{
+    color: #6f42c1;
+}
+.about .info .list-quick{
+    padding-top: 0;
+}
+.about .info .list-quick li{
+    display: block;
+    padding-bottom: 10px;
+}
+.about .copy {
+    padding-top: 15px;
+    font-size: 10px;
+}
+.about .copy p>i{
+    color: red;
+}
+.about .copy p>span{
+    color: #6f42c1;
+}
+
+/* End section about */

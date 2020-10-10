@@ -1,0 +1,450 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+/* Start section Header */
+.header{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(111, 66, 193, 0.1);
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+}
+/* Start section navbar */
+
+.header .navbar-brand{
+    margin-top: 10px;
+    color: #000; 
+    font-weight: 700;  
+}
+.header .navbar-brand span{
+    color: #6f42c1;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: none;
+}
+.header .navbar-nav>li>a{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+.header .navbar-nav>li>a:hover{
+    color: #6f42c1;
+    transition: 0.5s;
+}
+.header .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 767px){
+    .header .navbar-brand{
+        margin-top: 5px !important; 
+    }
+    .header .nav{
+        margin-left: 0%;
+    }
+    .header .navbar-fixed-top{
+        position: relative;
+    }
+}
+@media (min-width: 768px){
+    .header .nav{
+        margin-top: 8px;
+        margin-left: 18%;
+    }
+}
+@media (min-width: 992px){
+    .header .nav{
+        margin-top: 8px;
+        margin-left: 35%;
+    }
+}
+@media (min-width: 1200px){
+    .header .nav{
+        margin-top: 7px;
+        margin-left: 40%;
+    }
+}
+
+
+/* End section navbar */
+.header .header-background .text-header{
+    padding: 13rem 0;
+}
+.header .header-background .text-header h5{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(111, 66, 193, 0.5);
+    letter-spacing: .1rem;
+    font-weight: 900;
+}
+.header .header-background .text-header h1{
+    font-weight: 900;
+    color: #6f42c1;
+    font-size: 40px;
+}
+.header .header-background .text-header p{
+    margin-bottom: 15px !important;
+    font-size: 16px;
+
+}
+.header .header-background .text-header button{
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 50px;
+    color: #FFF;
+    background-color: #6f42c1;
+    border-radius: 50px;
+    outline: none;
+}
+.header .header-background .header-image{
+    max-width: 600px;
+    height: 535px;
+}
+.header .header-background .header-image img{
+    max-width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    
+}
+@media (max-width: 767px){
+    .header{
+        height: 400px !important;
+    }
+    .header .header-background{
+        text-align: center;
+        overflow: visible;
+    }
+    .header .header-background .text-header{
+        padding-top: 2rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .header .header-background .text-header p{
+        margin-bottom: 10px !important;
+        font-size: 16px;
+    }
+    .header .header-background .header-image{
+        max-width: 500px !important;
+        height: 400px;
+    }
+
+}
+
+/* End section Header */
+
+/* Start section spreads */
+
+.spreads h1{
+    margin-top: 90px;
+    color: #6f42c1;
+    text-align: center;
+    font-weight: 700;
+
+}
+.spreads .lead{
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0 15px;
+}
+.spreads .text i{
+    color: #6f42c1;
+}
+.spreads .text p{
+    padding-top: 15px;
+    font-size: 14px;
+}
+@media (max-width: 767px){
+    .spreads h1{
+        margin-top: 40px;
+    }
+    .spreads .text{
+        padding-bottom: 30px;
+    }
+}
+
+/* End section spreads */
+
+/* Start section Treatments*/
+
+.Treatments{
+    margin-top: 50px;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.Treatments h2{
+    color: #6f42c1;
+    padding: 25px 0;
+    font-weight: 700;
+
+}
+.Treatments p{
+    font-size: 16px;
+}
+.Treatments .image .image-fiuld{
+    padding-left: 80px;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 767px){
+    .Treatments h2{
+        text-align: center;
+    }
+    .Treatments p{
+        text-align: center;
+    }
+    .Treatments .image .image-fiuld{
+        padding-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .Treatments h2{
+        text-align: center;
+    }
+    .Treatments p{
+        text-align: center;
+    }
+    .Treatments .image .image-fiuld{
+        padding-left: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .Treatments .image .image-fiuld{
+        padding-left: 0;
+    }
+}
+/* End section Treatments */
+
+/* Start section protect */
+
+.protect{
+    margin-top: 60px;
+}
+.protect .object .lead{
+    font-size: 17px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.protect .object h2{
+    color: #6f42c1;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+.protect .text-left{
+    padding-top: 150px;
+}
+.protect .text-left h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+}
+.protect .text-left li{
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.protect .text-left li > i{
+    padding-right: 20px;
+    color: #a8df65;
+}
+.protect .text-right{
+    padding-top: 150px;
+    text-align: left;
+}
+.protect .text-right h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+}
+.protect .text-right li{
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.protect .text-right li > i{
+    padding-right: 20px;
+    color: red;
+}
+.protect .image img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 767px){
+    .protect{
+        margin-top: 50px;
+    }
+    .protect .text-left{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .protect .text-right{
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .protect .text-left {
+        padding-top: 20px;
+    }
+    .protect .text-right{
+        padding-top: 20px;
+    }
+    .protect .text-left li > i {
+        padding-right: 0;
+        color: #a8df65;
+    }
+    .protect .text-right li > i {
+        padding-right: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .protect .text-left {
+        padding-top: 40px;
+    }
+    .protect .text-right{
+        padding-top: 40px;
+    }
+}
+/* End section protect*/
+
+/* Start section more */
+.more{
+    margin-top: 50px; 
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.more h2{
+    text-align: center;
+    color: #6f42c1;
+    padding: 20px 0 10px;
+}
+.more .lead{
+    font-size: 16px;
+    text-align: center;
+}
+.more .left-element{
+    padding-top: 20px;
+}
+.more .left-element .object{
+   
+    color: #6f42c1;
+    padding-bottom: 10px;
+}
+
+.more .left-element li > i{
+    color: #6f42c1;
+    padding-right: 5px;
+}
+.more .left-element li{
+    font-size: 12px;
+}
+.more .center-element{
+    padding-top: 20px;
+}
+.more .center-element .object{
+    
+    color: #6f42c1;
+    padding-bottom: 10px;
+}
+
+.more .center-element li > i{
+    color: #6f42c1;
+    padding-right: 5px;
+}
+.more .center-element li{
+    font-size: 12px;
+}
+.more .right-element{
+    padding-top: 20px;
+}
+.more .right-element .object{
+    
+    color: #6f42c1;
+    padding-bottom: 10px;
+}
+
+.more .right-element li > i{
+    color: #6f42c1;
+    padding-right: 5px;
+}
+.more .right-element li{
+    font-size: 12px;
+}
+@media (max-width: 767px){
+    .more{
+        text-align: center;
+    }
+}
+/* End section more */
+
+/* Start section about */
+.about{
+    margin-top: 30px;
+
+}
+.about .info h5{
+    color: #6f42c1;
+    padding: 20px 0 10px;
+    font-size: 17px;
+}
+.about .info p{
+    font-size: 15px;
+}
+.about .info ul{
+    padding-top: 3px;
+}
+.about .info li{
+    display: inline;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.about .info li > a{
+    text-decoration: none;
+    color: #aaa;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+.about .info li > a:hover{
+    color: #6f42c1;
+}
+.about .info .list-quick{
+    padding-top: 0;
+}
+.about .info .list-quick li{
+    display: block;
+    padding-bottom: 10px;
+}
+.about .copy {
+    padding-top: 15px;
+    font-size: 10px;
+}
+.about .copy p>i{
+    color: red;
+}
+.about .copy p>span{
+    color: #6f42c1;
+}
+
+/* End section about */

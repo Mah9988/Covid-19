@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+/* Start section Header */
+.header{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(111, 66, 193, 0.1);
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+}
+/* Start section navbar */
+
+.header .navbar-brand{
+    margin-top: 10px;
+    color: #000; 
+    font-weight: 700;  
+}
+.header .navbar-brand span{
+    color: #6f42c1;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: none;
+}
+.header .navbar-nav>li>a{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+.header .navbar-nav>li>a:hover{
+    color: #6f42c1;
+    transition: 0.5s;
+}
+.header .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 767px){
+    .header .navbar-brand{
+        margin-top: 5px !important; 
+    }
+    .header .nav{
+        margin-left: 0%;
+    }
+    .header .navbar-fixed-top{
+        position: relative;
+    }
+}
+@media (min-width: 768px){
+    .header .nav{
+        margin-top: 8px;
+        margin-left: 18%;
+    }
+}
+@media (min-width: 992px){
+    .header .nav{
+        margin-top: 8px;
+        margin-left: 35%;
+    }
+}
+@media (min-width: 1200px){
+    .header .nav{
+        margin-top: 7px;
+        margin-left: 40%;
+    }
+}
+
+
+/* End section navbar */
+.header .header-background .text-header{
+    padding: 13rem 0;
+}
+.header .header-background .text-header h5{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(111, 66, 193, 0.5);
+    letter-spacing: .1rem;
+    font-weight: 900;
+}
+.header .header-background .text-header h1{
+    font-weight: 900;
+    color: #6f42c1;
+    font-size: 40px;
+}
+.header .header-background .text-header p{
+    margin-bottom: 15px !important;
+    font-size: 16px;
+
+}
+.header .header-background .text-header button{
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 50px;
+    color: #FFF;
+    background-color: #6f42c1;
+    border-radius: 50px;
+    outline: none;
+}
+
+@media (max-width: 767px){
+    .header{
+        height: 400px !important;
+    }
+    .header .header-background{
+        text-align: center;
+        overflow: visible;
+    }
+    .header .header-background .text-header{
+        padding-top: 2rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .header .header-background .text-header p{
+        margin-bottom: 10px !important;
+        font-size: 16px;
+    }
+    .header .header-background .header-image{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* End section Header */
+
+/*Start section sympthos */ 
+
+.sympthos{
+    background: rgba(111, 66, 193, 0.05);
+}
+.sympthos .object{
+    text-align: center;
+}
+.sympthos .object h2{
+    padding-top: 70px;
+    color: #6f42c1;
+    font-weight: 700;
+}
+.sympthos .object .lead{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+.sympthos .content{
+    margin-bottom: 1.5rem !important;
+}
+.sympthos .content .box{
+    padding: 30px;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex !important;
+}
+.sympthos .content .box .img{ 
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80px;
+    flex: 0 0 80px;
+    margin-right: 20px
+}
+.sympthos .content .box .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.sympthos .text h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6f42c1;
+}
+.sympthos .text p {
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.sympthos .help-line {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sympthos .help-line h5{
+    color: #6f42c1;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.sympthos .help-line button{
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 50px;
+    color: #FFF;
+    background-color: #6f42c1;
+    border-radius: 50px;
+    outline: none;
+}
+/*End section sympthos*/
+
+/* Start section common */
+
+.common{
+    margin-top: 50px;
+}
+.common .object{
+    text-align: center;
+}
+.common .object h2{
+    color: #6f42c1;
+    font-weight: 700;
+}
+.common .object .lead{
+    font-size: 10px;
+}
+.common .com .up{
+    text-align: left;
+    padding: 20px 0;
+    color: #6f42c1;
+}
+.common .com .up h5{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.common .com .list li{
+    font-size: 18px;
+}
+.common .com .list li > i{
+    color: rgb(233, 64, 64);
+    padding-right: 10px;
+}
+@media (max-width: 767px){
+    .common{
+        text-align: center;
+    }
+    .common .com .up{
+        text-align: center;
+    }
+}
+/* End section common */
+/* Start section form */
+
+.form{
+    background: rgba(111, 66, 193, 0.05);
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.form .object{
+    text-align: center;
+}
+.form .object h2{
+    color: #6f42c1;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.form .text h5{
+    color: #6f42c1;
+    padding-bottom: 10px;
+}
+.form .text p{
+    font-size: 12px;
+}
+
+/*End section form*/
+
+/* Start section about */
+.about{
+    margin-top: 30px;
+
+}
+.about .info h5{
+    color: #6f42c1;
+    padding: 20px 0 10px;
+    font-size: 17px;
+}
+.about .info p{
+    font-size: 15px;
+}
+.about .info ul{
+    padding-top: 3px;
+}
+.about .info li{
+    display: inline;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.about .info li > a{
+    text-decoration: none;
+    color: #aaa;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+.about .info li > a:hover{
+    color: #6f42c1;
+}
+.about .info .list-quick{
+    padding-top: 0;
+}
+.about .info .list-quick li{
+    display: block;
+    padding-bottom: 10px;
+}
+.about .copy {
+    padding-top: 15px;
+    font-size: 10px;
+}
+.about .copy p>i{
+    color: red;
+}
+.about .copy p>span{
+    color: #6f42c1;
+}
+
+/* End section about */
